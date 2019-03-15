@@ -1,0 +1,142 @@
+/*
+|----------------------------------------------------------------------------
+| VARIABLES
+|----------------------------------------------------------------------------
+*/
+/*
+|----------------------------------------------------------------------------
+| MIXINS
+|----------------------------------------------------------------------------
+*/
+/*
+|----------------------------------------------------------------------------
+| COLOR REPLACEMENT
+|----------------------------------------------------------------------------
+*/
+/* MISCELLANEOUS STYLE */
+.color-overlay {
+  background: -webkit-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -moz-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -ms-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -o-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+}
+hr.separator {
+  border-top: 2px solid #614385;
+}
+/* OWL THEME BULLETS */
+.owl-theme .owl-controls .owl-buttons div {
+  background: #614385;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: #614385;
+}
+.owl-theme .owl-controls .owl-page.active span {
+  background: #614385;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: #614385;
+}
+/* BUTTONS */
+.btn-main {
+  background: #3c2952;
+}
+.btn-main:hover {
+  background: #302141;
+}
+.btn-learn {
+  background: #fff;
+  color: #302141;
+  border: 2px solid #fff;
+}
+.btn-learn:hover {
+  color: #fff;
+  background: #302141;
+}
+.btn-download {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn-download:hover {
+  background: #fff;
+  color: #302141;
+}
+/* PRELOADER */
+.spinner-wrapper {
+  background: #614385;
+}
+/* MAIN NAVIGATION BAR */
+.sticky-navbar .main-navigation li a:hover {
+  color: #614385;
+}
+.sticky-navbar .main-navigation li.current a {
+  color: #614385;
+}
+/* WAY WE WORK */
+.way-we-work .features .each-item:hover .fa {
+  background: #614385;
+  border: 1px solid #614385;
+}
+.way-we-work .features .each-item:hover h4 {
+  color: #614385;
+}
+/* APP INTRO */
+.app-intro {
+  background: #614385;
+  background: -webkit-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -moz-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -ms-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -o-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+}
+/* EASY FEATURES AVAILABLE */
+.easy-features-available .each-easy-step h5.text-colored {
+  color: #614385;
+}
+/* TESTIMONIALS */
+.testimonials figure img {
+  border: 1px solid #302141;
+}
+.testimonials figure figcaption {
+  color: #302141;
+}
+/* PRICING TABLE */
+.pricing-table .table-single.table-active .meta-title {
+  background: #614385;
+  color: #fff;
+}
+/* OUR OTHER APPS */
+.our-other-apps .app-description .line-btn {
+  border: 2px solid #614385;
+  color: #614385;
+}
+/* CONTACT US SECTION */
+.download .color-overlay {
+  background: -webkit-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -moz-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -ms-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: -o-linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+  background: linear-gradient(left, rgba(97, 67, 133, 0.9) 10%, rgba(81, 99, 149, 0.9) 90%);
+}
+/* CONTACT US SECTION */
+.contact-us .expendable-contact-btn .fa {
+  border: 2px solid #614385;
+}
+.contact-us .expendable-contact-btn .fa:hover {
+  background: #614385;
+}
+.contact-us .about-us .each-item .ef {
+  border: 1px solid #614385;
+  color: #614385;
+}
+.contact-us .about-us .each-item address p a:hover {
+  color: #614385;
+}
+.contact-us .contact-form .form-control {
+  border: 1px solid #614385;
+}
+/* FOOTER SECTION */
+.footer .social-icons ul li a:hover,
+.footer .copyright ul li a:hover {
+  color: #614385;
+}
