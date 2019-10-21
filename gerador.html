@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gerador de Recados</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+<body style="font-family: 'Alegreya Sans SC', sans-serif; font-size: 22px;">
+	Nome: <input id="campo1" type="text" onkeyup="mostrarTexto(this.value)"/>
+	Mensalidade:<input id="campo2" type="text" onkeyup="mostrarTexto(this.value)"/>
+	Material: <input id="campo3" type="text" onkeyup="mostrarTexto(this.value)"/>
+_______________________________________________________________________________
+<br>
+<p>Favor confirmar condi&ccedil;&atilde;o pagamento para impress&atilde;o e envio do Contrato de Presta&ccedil;&atilde;o Servi&ccedil;os Educacionais 2020 para assinatura.</p>
+<p>Considerar desconto de 150.00 (taxa reserva) na primeira parcela da anuidade:<div id="div1" style="display:block;"></div> <br />Mensalidade - 12x de :<div id="div2" style="display:block;"></div> Material Did&aacute;tico : <div id="div3" style="display:block;"></div></p>
+<p>No aguardo da confirma&ccedil;&atilde;o.<br />Obrigado<br />Richard<br />Dep. Financeiro</p>
+</body>
+<script type="text/javascript">
+	window.mostrarTexto= function(valor){
+  var campo1 = document.getElementById("campo1").value;
+  var campo2 = document.getElementById("campo2").value;
+  var campo3 = document.getElementById("campo3").value;
+  div1.innerHTML = campo1; 
+  div2.innerHTML = campo2;
+  div3.innerHTML = campo3;
+}
+
+</script>
+</html>
+
